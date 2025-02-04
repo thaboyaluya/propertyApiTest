@@ -6,7 +6,7 @@ const router = express.Router()
 
 
 router.route('/').get(propertyController.welcome)
-router.route('/davido').get(propertyController.lagos)
+router.route('/lagos').get(propertyController.lagos)
 
 
 
